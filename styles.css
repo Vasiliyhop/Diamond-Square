@@ -1,0 +1,39 @@
+body {
+    background-color: #025502;
+}
+
+.app-container {
+    margin-top: 0px;
+}
+
+.app-container .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.app-container .buttons button {
+    width: 120px;
+    border-radius: 0;
+    background-color: #b7b7b7;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.app-container .buttons button:hover {
+    box-shadow: 2px 2px 2px #429a42;
+}
+
+.app-container .canvases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.app-container .canvases canvas {
+    margin: 10px
+}
